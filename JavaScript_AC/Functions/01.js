@@ -12,8 +12,13 @@
 // myfunction("Hi")
 
 
-const Sum = (a,b)=>{
-    console.log(a+b);
-}
+// const Sum = (a,b)=>{
+//     console.log(a+b);
+// }
 
-Sum(2,3)
+// Sum(2,3)
+
+const printHello =() => {
+    console.log("Hello");
+}
+printHello()
