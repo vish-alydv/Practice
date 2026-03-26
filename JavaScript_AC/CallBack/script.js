@@ -44,17 +44,6 @@ promise.catch((err)=>{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 // function getData(DataId,getNextData){
 //     setTimeout(()=>{
 //         console.log("Data",DataId);
