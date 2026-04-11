@@ -1,0 +1,11 @@
+header{
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+}
+
+.btn{
+    background-color: rgb(195, 195, 15);
+    width: fit-content;
+    border-radius: 5px;
+}
