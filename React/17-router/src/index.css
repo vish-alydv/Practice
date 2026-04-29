@@ -1,0 +1,6 @@
+.nav{
+  display: flex;
+  align-items: centre;
+  gap: 400px;
+  background-color: burlywood;
+}
