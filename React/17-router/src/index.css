@@ -1,6 +1,31 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  color: white;
+  font-family: 'helvetica neue';
+}
+html,
+body{
+  height: 100%;
+  width: 100%;
+}
+body{
+  background-color: black;
+}
+
+
+
 .nav{
   display: flex;
   align-items: centre;
   gap: 400px;
   background-color: burlywood;
+  padding: 20px 40px;
+}
+
+.nav div{
+  display:flex;
+  align-items:centre;
+  gap:40px;
 }
