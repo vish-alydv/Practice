@@ -5,8 +5,19 @@ gsap.to("#box1",{
     rotate:360,
     backgroundColor:"blue",
     borderRadius:"50%",
-    scale:2
+    scale:2,
+    repeat:-1,
+    yoyo:true
 })
+// gsap.to("#box1",{
+//     x:1200,
+//     duration:2,
+//     delay:1,
+//     rotate:360,
+//     backgroundColor:"blue",
+//     borderRadius:"50%",
+//     scale:2
+// })
 
 gsap.from("#box2",{
     x:1200,
@@ -25,3 +36,5 @@ gsap.from("h1",{
     delay:1,
     stagger:-1
 })
+
+
