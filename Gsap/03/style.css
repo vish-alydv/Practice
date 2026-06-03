@@ -28,6 +28,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    gap: 50px;
 }
 #page3{
     height: 100%;
@@ -42,4 +44,15 @@ body {
     height: 300px;
     width: 300px;
     background-color: crimson;
+}
+
+h1{
+    font-size: 60px;
+    position: relative;
+    background-color: aqua;
+}
+h2{
+    font-size: 60px;
+    position: relative;
+    background-color: rgb(64, 255, 0);
 }
